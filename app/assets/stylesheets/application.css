@@ -15,25 +15,25 @@
  */
 
 body {
-    background-color: #fff;
-    color: #333;
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px
 }
 
 p,ol,ul,td {
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px
 }
 
 pre {
-    background-color: #eee;
-    padding: 10px;
-    font-size: 11px
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px
 }
 
 strong{
@@ -41,11 +41,19 @@ strong{
 }
 
 a {
-    color: #000;
-    margin:33px;
+  color: #000;
+  margin:33px;
 }
 
 a:visited {
-    color: #666
+  color: #666
 }
 
+table{
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
