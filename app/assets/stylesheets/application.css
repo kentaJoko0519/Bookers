@@ -91,3 +91,42 @@ td {
     padding-left: 5px;
     padding-right: 5px
 }
+
+.show-title{
+  display: flex;
+  align-items:center;
+  margin-left: 30px;
+}
+
+.show-body{
+  display:flex;
+  align-items:center;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+p2{
+  margin-left: 10px;
+}
+
+span{
+  display: flex;
+  flex-direction: row;
+}
+
+.edit-title>p{
+  margin: 0px;
+}
+
+.edit-body>p{
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.edit-body{
+    margin-bottom: 10px;
+}
+
+.edit-link{
+  margin-top: 10px;
+}
