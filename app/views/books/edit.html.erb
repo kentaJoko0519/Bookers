@@ -1,3 +1,17 @@
+
+<div>
+  <%= flash[:notice] %>
+</div>
+
+<% if @book.errors.any? %>
+  <%= @book.errors.count %>件のエラーが発生しました
+  <ul>
+    <% @book.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+    <% end %>
+  </ul>
+<% end %>
+
 <h5>Editing Book</h5>
 <%= form_with model:@book, url: book_path(@book.id), method: :patch do |f|%>
 
